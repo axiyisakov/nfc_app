@@ -3,6 +3,10 @@ import 'dart:developer';
 import 'package:flutter/material.dart';
 import 'package:nfc_manager/nfc_manager.dart';
 
+/*
+Created by Axmadjon Isaqov on 21:15:59 20.09.2023
+&© 2023 @axiydev 
+*/
 class NFCView extends StatefulWidget {
   const NFCView({super.key});
 
