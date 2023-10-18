@@ -1,0 +1,118 @@
+{
+    "editor.inlineSuggest.enabled": true,
+    "dart.sdkPath": "/Users/axmadjonisaqov/src/flutter/bin/cache/dart-sdk",
+    "dart.flutterSdkPaths": [
+        "/Users/$USER/fvm/versions"
+    ],
+    "dart.flutterSdkPath": ".fvm/flutter_sdk",
+    "terminal.integrated.allowChords": false,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": true,
+            "source.organizeImports": true
+        },
+    },
+    "dart.showInspectorNotificationsForWidgetErrors": false,
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "cmake.configureOnOpen": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": false,
+        "scminput": false
+    },
+    "chatgpt.lang": "en",
+    "window.zoomLevel": 1,
+
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    // the following elements will be in italic
+                    "comment",
+                    "storage.modifier", // static keyword
+                    "storage.type.php", // typehints in methods keyword
+                    "keyword.other.new.php", // new
+                    "entity.other.attribute-name", // html attributes
+                    "fenced_code.block.language.markdown", // markdown language modifier
+                    "keyword", //import, export, return…
+                    "storage.modifier", //static keyword
+                    "storage.type", //class keyword
+                    "keyword.control",
+                    "constant.language",
+                    "entity.other.attribute-name",
+                    "entity.name.method",
+                    "keyword.control.import.ts",
+                    "keyword.control.import.tsx",
+                    "keyword.control.import.js",
+                    "keyword.control.flow.js",
+                    "keyword.control.from.js",
+                    "keyword.control.from.ts",
+                    "keyword.control.from.tsx"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    // the following elements will be displayed in bold
+                    "entity.name.type.class" // class names
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": [
+                    // the following elements will be displayed in bold and italic
+                    "entity.name.section.markdown" // markdown headlines
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    // the following elements will be excluded from italics
+                    //   (VSCode has some defaults for italics)
+                    "invalid",
+                    "keyword.operator",
+                    "constant.numeric.css",
+                    "keyword.other.unit.px.css",
+                    "constant.numeric.decimal.js",
+                    "constant.numeric.json",
+                    "comment.block",
+                    "entity.other.attribute-name.class.css"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+    "workbench.colorTheme": "Theme Darker",
+
+
+    "background.fullscreen": {
+        "images":["/Users/axmadjonisaqov/Desktop/dart/background.jpg"], // url of your image
+        // "image": ["https://pathtoimage.png"], // An array may be useful when set interval for carousel
+        "opacity": 0.91, // 0.85 ~ 0.95 recommended
+        "size": "cover", // also css, `cover` to self-adaption (recommended)，or `contain`、`200px 200px`
+        "position": "center", // alias to `background-position`, default `center`
+        "interval": 0 // seconds of interval for carousel, default `0` to disabled.
+    }
+
+}
